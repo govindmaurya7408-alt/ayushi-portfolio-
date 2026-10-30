@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100">
+  <defs>
+    <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#ded0bf"/><stop offset="1" stop-color="#bea28a"/></linearGradient>
+    <linearGradient id="vase" x2="1" y2="1"><stop stop-color="#e5c4a4"/><stop offset=".55" stop-color="#b87961"/><stop offset="1" stop-color="#8f5848"/></linearGradient>
+    <linearGradient id="cup" x2="0" y2="1"><stop stop-color="#f6eee1"/><stop offset="1" stop-color="#c5a790"/></linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#wall)"/>
+  <path d="M0 785h900v315H0z" fill="#765748"/>
+  <path d="M82 220h736v565H82z" fill="#b08b70" opacity=".38"/>
+  <path d="M125 735h650v22H125z" fill="#e3c9ac"/>
+  <path d="M215 419c0-87 30-119 45-148h122c16 33 45 62 45 148 0 124-43 210-106 210s-106-86-106-210z" fill="url(#vase)"/>
+  <ellipse cx="321" cy="273" rx="61" ry="16" fill="#f0d7bd"/>
+  <ellipse cx="321" cy="273" rx="43" ry="10" fill="#795d4d"/>
+  <path d="M320 260c-10-93 18-153 57-205m-52 188c-44-31-79-39-118-42m152 23c37-46 75-62 120-72" fill="none" stroke="#65735b" stroke-width="10" stroke-linecap="round"/>
+  <g fill="#d7b78a"><ellipse cx="383" cy="81" rx="25" ry="13" transform="rotate(-42 383 81)"/><ellipse cx="212" cy="200" rx="25" ry="13" transform="rotate(15 212 200)"/><ellipse cx="494" cy="148" rx="28" ry="13" transform="rotate(-15 494 148)"/></g>
+  <path d="M510 564c0-48 17-70 25-90h90c9 21 25 43 25 90 0 75-31 119-70 119s-70-44-70-119z" fill="url(#cup)"/>
+  <ellipse cx="580" cy="474" rx="45" ry="13" fill="#f6eee1"/>
+  <path d="M650 522c80-13 80 114 0 104" fill="none" stroke="#d6bda8" stroke-width="18"/>
+  <path d="M698 695H493" stroke="#47382f" stroke-opacity=".18" stroke-width="9"/>
+  <path d="M676 333c0-38 15-60 22-73h75c7 17 20 35 20 73 0 59-26 95-58 95s-59-36-59-95z" fill="#d6a18a"/>
+  <ellipse cx="734" cy="260" rx="38" ry="10" fill="#ead1ba"/>
+  <g fill="#f5e8d6" opacity=".75"><circle cx="133" cy="343" r="4"/><circle cx="780" cy="551" r="4"/><circle cx="119" cy="620" r="3"/></g>
+</svg>

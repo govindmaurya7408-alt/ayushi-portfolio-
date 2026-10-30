@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100">
+  <defs>
+    <linearGradient id="desk" x2="0" y2="1"><stop stop-color="#ddc8b2"/><stop offset="1" stop-color="#ad8a70"/></linearGradient>
+    <linearGradient id="paper" x2="1" y2="1"><stop stop-color="#fffaf0"/><stop offset="1" stop-color="#e7d9c6"/></linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <rect width="900" height="1100" fill="url(#desk)"/>
+  <path d="M0 814c278-65 596 70 900-26v312H0z" fill="#96745f" opacity=".5"/>
+  <ellipse cx="449" cy="711" rx="300" ry="62" fill="#48382f" opacity=".2" filter="url(#shadow)"/>
+  <g transform="rotate(-8 450 520)">
+    <rect x="210" y="194" width="495" height="584" rx="8" fill="#9b745e"/>
+    <rect x="231" y="213" width="455" height="548" rx="4" fill="url(#paper)"/>
+    <path d="M264 293h383M264 340h383M264 387h383M264 434h383M264 481h383M264 528h383M264 575h383M264 622h383M264 669h383" stroke="#c8b9a7" stroke-width="2" opacity=".7"/>
+    <path d="M541 212v549" stroke="#bb8f75" stroke-width="2"/>
+    <path d="M344 260c17-34 40-43 62-48-6 22-14 37-41 54 29-8 45-3 63 12-24 8-44 8-72-6" fill="#899174"/>
+    <path d="M384 267c25-20 40-33 42-57" stroke="#718064" stroke-width="3" fill="none"/>
+    <circle cx="418" cy="225" r="11" fill="#c98572"/>
+  </g>
+  <path d="M705 402l80 25-213 470-81-34z" fill="#745748"/>
+  <path d="M705 402l32-47 72 23-24 49z" fill="#d7b790"/>
+  <path d="M173 879c55-70 79-132 94-202m-48 161c-36-48-67-61-102-69" fill="none" stroke="#707d62" stroke-width="8" stroke-linecap="round"/>
+  <g fill="#e3c99e"><ellipse cx="276" cy="664" rx="23" ry="11" transform="rotate(-35 276 664)"/><ellipse cx="120" cy="769" rx="23" ry="11" transform="rotate(24 120 769)"/><ellipse cx="250" cy="745" rx="23" ry="11" transform="rotate(-15 250 745)"/></g>
+</svg>

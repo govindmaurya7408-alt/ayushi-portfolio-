@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f0e9" />
+    <meta
+      name="description"
+      content="A small collection of handmade art, made slowly and with love."
+    />
+    <title>Ayushi Dhiman — Handmade with Ayushi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="page-loader" aria-hidden="true">
+      <span class="loader-mark">AD.</span>
+      <span class="loader-line"><span></span></span>
+    </div>
+
+    <header class="site-header" id="top">
+      <a class="wordmark" href="#top" aria-label="Ayushi Dhiman home">Ayushi <span>♡</span> Dhiman</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="menu-toggle-label">Menu</span>
+        <span class="menu-toggle-icon" aria-hidden="true"><i></i><i></i></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#about">The artist</a>
+        <a href="#portfolio">Creations</a>
+        <a href="#process">My process</a>
+        <a class="nav-contact" href="#contact">Say hello <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-grain" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow"><span class="eyebrow-dot"></span> A little studio full of wonder</p>
+          <h1 id="hero-title">Handmade<br />with <em>Ayushi.</em></h1>
+          <p class="hero-subtitle">Every creation tells a<br class="desktop-break" /> unique story.</p>
+          <a class="button button-dark hero-button" href="#portfolio">
+            Explore my creations <span class="button-arrow" aria-hidden="true">↘</span>
+          </a>
+          <div class="hero-note"><span class="note-line"></span> Made slowly, made to be kept</div>
+        </div>
+        <div class="hero-art">
+          <div class="art-halo" aria-hidden="true"></div>
+          <div class="art-caption"><span>ONE OF A KIND</span><span>Move or tap to explore</span></div>
+          <button class="hero-object" type="button" aria-pressed="false" aria-label="Rotate the handmade pottery still life">
+            <img class="hero-fallback" src="images/hero-still-life.svg" alt="Handmade terracotta vase with a bouquet of wildflowers and leaves" />
+          </button>
+          <span class="hero-side-label">ARTISANAL · INTENTIONAL · FOREVER</span>
+        </div>
+        <a class="scroll-cue" href="#about"><span>Scroll to discover</span><i aria-hidden="true"></i></a>
+        <div class="hero-index" aria-hidden="true">01 — 05</div>
+      </section>
+
+      <section class="about section-pad" id="about" aria-labelledby="about-title">
+        <div class="section-kicker reveal"><span>01</span><span class="kicker-rule"></span><span>A little about me</span></div>
+        <div class="about-grid">
+          <div class="about-photo-wrap reveal">
+            <div class="about-photo">
+              <img
+                src="images/artist-studio.svg"
+                alt="Illustration of a warm, sunlit handmade artist's studio"
+                loading="lazy"
+              />
+            </div>
+            <span class="photo-stamp" aria-hidden="true">made<br />by hand<br /><span>♡</span></span>
+            <span class="photo-caption">My happy place, somewhere between a sketch and a cup of tea.</span>
+          </div>
+          <div class="about-copy reveal">
+            <p class="eyebrow">Hello, I'm Ayushi Dhiman</p>
+            <h2 id="about-title">A maker of<br />little <em>wonders.</em></h2>
+            <p class="about-lede">I believe the things we surround ourselves with should feel like something.</p>
+            <p class="body-copy">I’m a handmade artist, daydreamer, and collector of tiny details. In my sunlit studio, I turn slow mornings, wildflower walks, and lovely little accidents into jewellery, objects, and keepsakes made to find their way into your everyday.</p>
+            <p class="body-copy">Every piece begins with curiosity and ends with a little bit of my heart tucked inside. No two are quite alike — and that’s my favourite part.</p>
+            <a class="text-link" href="#process">A glimpse into my process <span aria-hidden="true">↗</span></a>
+            <div class="about-signature">Ayushi Dhiman <span>♡</span></div>
+          </div>
+        </div>
+        <div class="about-bottom-note"><span>Small batch, big heart</span><span>✳</span><span>Thoughtfully handmade</span><span>✳</span><span>One of a kind</span></div>
+      </section>
+
+      <section class="portfolio section-pad" id="portfolio" aria-labelledby="portfolio-title">
+        <div class="section-kicker reveal"><span>02</span><span class="kicker-rule"></span><span>The collection</span></div>
+        <div class="portfolio-heading reveal">
+          <div>
+            <p class="eyebrow">Things made with feeling</p>
+            <h2 id="portfolio-title">A few of my<br /><em>favourite things.</em></h2>
+          </div>
+          <p class="portfolio-intro">Each piece is made by hand, at its own pace. Browse a little, stay a while, and find the one that speaks to you.</p>
+        </div>
+        <div class="filter-row reveal" role="group" aria-label="Filter creations by category">
+          <button class="filter-button is-active" type="button" data-filter="All" aria-pressed="true">Everything <span>07</span></button>
+          <button class="filter-button" type="button" data-filter="Jewellery" aria-pressed="false">Jewellery</button>
+          <button class="filter-button" type="button" data-filter="Resin art" aria-pressed="false">Resin art</button>
+          <button class="filter-button" type="button" data-filter="Clay crafts" aria-pressed="false">Clay crafts</button>
+          <button class="filter-button" type="button" data-filter="Gifts" aria-pressed="false">Little gifts</button>
+          <button class="filter-button" type="button" data-filter="Paintings" aria-pressed="false">Paintings</button>
+          <button class="filter-button" type="button" data-filter="Home decor" aria-pressed="false">Home decor</button>
+          <button class="filter-button" type="button" data-filter="Other crafts" aria-pressed="false">Other crafts</button>
+        </div>
+
+        <div class="project-grid" id="project-grid" aria-live="polite">
+          <button class="project-card project-large reveal" type="button" data-category="Resin art" data-title="Tidepool, at dusk" data-description="Swirls of translucent ocean blue and warm champagne gold are poured, layered, and polished by hand. Inspired by the last light on the water, this one-of-a-kind resin keepsake holds little flecks of gold like sunlight caught at the shore." data-image="images/resin-art.svg" data-alt="Illustration of a handmade ocean-blue and gold resin artwork">
+            <span class="project-image"><img src="images/resin-art.svg" alt="Illustration of a handmade ocean-blue and gold resin artwork" loading="lazy" /><span class="project-open" aria-hidden="true">↗</span></span>
+            <span class="project-meta"><span><span class="project-category">Resin art</span><span class="project-name">Tidepool, at dusk</span></span><span class="project-number">01</span></span>
+          </button>
+          <button class="project-card reveal" type="button" data-category="Jewellery" data-title="Wildflower hoops" data-description="Tiny pressed blossoms rest inside hand-shaped, lightweight hoops. Each petal is carefully placed and sealed by hand, making every pair a little snapshot of a spring afternoon. Made for everyday adventures and slow Sundays alike." data-image="images/jewellery.svg" data-alt="Illustration of handmade gold hoops with tiny botanical details">
+            <span class="project-image"><img src="images/jewellery.svg" alt="Illustration of handmade gold hoops with tiny botanical details" loading="lazy" /><span class="project-open" aria-hidden="true">↗</span></span>
+            <span class="project-meta"><span><span class="project-category">Jewellery</span><span class="project-name">Wildflower hoops</span></span><span class="project-number">02</span></span>
+          </button>
+          <button class="project-card reveal" type="button" data-category="Clay crafts" data-title="Little cloud cups" data-description="Pinch-formed from soft stoneware clay, these petite cups have gently uneven rims and a milky glaze that feels lovely in your hands. Each cup is fired slowly and finished by hand, so every cloud has its own character." data-image="images/clay-crafts.svg" data-alt="Illustration of handmade ceramic pottery and a flowering vase">
+            <span class="project-image"><img src="images/clay-crafts.svg" alt="Illustration of handmade ceramic pottery and a flowering vase" loading="lazy" /><span class="project-open" aria-hidden="true">↗</span></span>
+            <span class="project-meta"><span><span class="project-category">Clay crafts</span><span class="project-name">Little cloud cups</span></span><span class="project-number">03</span></span>
+          </button>
+          <button class="project-card reveal" type="button" data-category="Home decor" data-title="Sunday sun catcher" data-description="A small, light-catching arrangement of warm-toned glass, joined with copper foil and finished with a hand-burnished edge. Hang it by a sunny window and let afternoon light paint the room in tiny rainbows." data-image="images/home-decor.svg" data-alt="Illustration of a handmade glass sun catcher in a sunny window">
+            <span class="project-image"><img src="images/home-decor.svg" alt="Illustration of a handmade glass sun catcher in a sunny window" loading="lazy" /><span class="project-open" aria-hidden="true">↗</span></span>
+            <span class="project-meta"><span><span class="project-category">Home decor</span><span class="project-name">Sunday sun catcher</span></span><span class="project-number">04</span></span>
+          </button>
+          <button class="project-card project-large reveal" type="button" data-category="Paintings" data-title="A garden, remembered" data-description="An original acrylic painting made in layers of soft blush, terracotta, and leafy green. I painted this one from memory after a long, slow wander through a garden in early summer — the kind of place you want to carry home with you." data-image="images/painting.svg" data-alt="Illustration of a colourful handmade botanical painting">
+            <span class="project-image"><img src="images/painting.svg" alt="Illustration of a colourful handmade botanical painting" loading="lazy" /><span class="project-open" aria-hidden="true">↗</span></span>
+            <span class="project-meta"><span><span class="project-category">Paintings</span><span class="project-name">A garden, remembered</span></span><span class="project-number">05</span></span>
+          </button>
+          <button class="project-card reveal" type="button" data-category="Gifts" data-title="A note for you" data-description="A small, hand-bound keepsake journal made with recycled cotton paper, a soft linen cover, and a pressed flower tucked into its pages. A thoughtful little place for lists, dreams, and things you don't want to forget." data-image="images/handmade-gift.svg" data-alt="Illustration of a handmade journal with pressed flowers">
+            <span class="project-image"><img src="images/handmade-gift.svg" alt="Illustration of a handmade journal with pressed flowers" loading="lazy" /><span class="project-open" aria-hidden="true">↗</span></span>
+            <span class="project-meta"><span><span class="project-category">Gifts</span><span class="project-name">A note for you</span></span><span class="project-number">06</span></span>
+          </button>
+          <button class="project-card reveal" type="button" data-category="Other crafts" data-title="Soft morning, woven" data-description="A little wall hanging woven by hand with cotton, wool, and reclaimed yarns. Its gentle, uneven texture is part of the charm — a soft piece of the slow, quiet morning in which it was made." data-image="images/woven-art.svg" data-alt="Illustration of a soft, handwoven fibre wall hanging">
+            <span class="project-image"><img src="images/woven-art.svg" alt="Illustration of a soft, handwoven fibre wall hanging" loading="lazy" /><span class="project-open" aria-hidden="true">↗</span></span>
+            <span class="project-meta"><span><span class="project-category">Other crafts</span><span class="project-name">Soft morning, woven</span></span><span class="project-number">07</span></span>
+          </button>
+        </div>
+        <p class="gallery-note"><span>✳</span> Every piece is one of a kind, just like you.</p>
+      </section>
+
+      <section class="process section-pad" id="process" aria-labelledby="process-title">
+        <div class="section-kicker reveal"><span>03</span><span class="kicker-rule"></span><span>From my hands to yours</span></div>
+        <div class="process-heading reveal">
+          <p class="eyebrow">A slower kind of making</p>
+          <h2 id="process-title">A little magic,<br /><em>step by step.</em></h2>
+          <p class="process-intro">Good things take time. Here’s how a small idea becomes something you can hold.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-step reveal"><span class="timeline-number">01</span><img class="timeline-image" src="images/artist-studio.svg" alt="A warm studio filled with creative inspiration" loading="lazy" /><span class="timeline-icon" aria-hidden="true">✳</span><h3>Inspiration</h3><p>A colour, a found feather, the way the light hits the table. Every piece starts with noticing.</p><span class="timeline-caption">the little spark</span></article>
+          <article class="timeline-step reveal"><span class="timeline-number">02</span><img class="timeline-image" src="images/handmade-gift.svg" alt="A handmade sketchbook ready for new ideas" loading="lazy" /><span class="timeline-icon" aria-hidden="true">⌁</span><h3>Designing</h3><p>Sketches, moodboards, happy accidents. I follow a feeling until the idea finds its shape.</p><span class="timeline-caption">finding its form</span></article>
+          <article class="timeline-step reveal"><span class="timeline-number">03</span><img class="timeline-image" src="images/clay-crafts.svg" alt="Hand-shaped clay creations in the making" loading="lazy" /><span class="timeline-icon" aria-hidden="true">✺</span><h3>Crafting</h3><p>Then it’s time to get my hands messy. Slowly, thoughtfully, one tiny detail at a time.</p><span class="timeline-caption">made by hand</span></article>
+          <article class="timeline-step reveal"><span class="timeline-number">04</span><img class="timeline-image" src="images/painting.svg" alt="A finished original botanical artwork" loading="lazy" /><span class="timeline-icon" aria-hidden="true">♡</span><h3>Final creation</h3><p>A final polish, a deep breath, and a little note. Ready to become part of your story.</p><span class="timeline-caption">ready for its next chapter</span></article>
+        </div>
+        <div class="process-decoration" aria-hidden="true">made with intention <span>✳</span> kept with love</div>
+      </section>
+
+      <section class="contact section-pad" id="contact" aria-labelledby="contact-title">
+        <div class="section-kicker reveal"><span>04</span><span class="kicker-rule"></span><span>Let's make something lovely</span></div>
+        <div class="contact-grid">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">A note is always welcome</p>
+            <h2 id="contact-title">Say hello,<br /><em>lovely human.</em></h2>
+            <p class="contact-intro">Have a question about a piece, a little idea to share, or just want to say hi? I’d love to hear from you.</p>
+            <figure class="contact-photo"><img src="images/studio-detail.svg" alt="A glimpse of the artist's sunlit studio and handmade work" loading="lazy" /><figcaption>A little peek inside my studio <span>♡</span></figcaption></figure>
+            <div class="contact-details">
+              <div><span class="contact-label">Name</span><span>Ayushi Dhiman</span></div>
+              <a href="tel:+91XXXXXXXXXX"><span class="contact-label">Mobile</span><span>+91 XXXXX XXXXX ↗</span></a>
+              <a href="https://instagram.com/your_instagram_id" target="_blank" rel="noreferrer"><span class="contact-label">Instagram ID</span><span>@your_instagram_id ↗</span></a>
+              <a href="mailto:your.email@gmail.com"><span class="contact-label">Gmail</span><span>your.email@gmail.com ↗</span></a>
+              <div><span class="contact-label">Tucked away in</span><span>Your city, your country</span></div>
+            </div>
+            <a class="whatsapp-link" href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noreferrer"><span aria-hidden="true">↗</span> A quick hello on WhatsApp</a>
+          </div>
+          <form class="contact-form reveal" id="contact-form" novalidate>
+            <p class="form-heading">Leave a little note <span aria-hidden="true">♡</span></p>
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="What should I call you?" required minlength="2" />
+            <span class="field-error" id="name-error" aria-live="polite"></span>
+            <label for="email">Your email</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+            <span class="field-error" id="email-error" aria-live="polite"></span>
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell me what's on your mind..." required minlength="10"></textarea>
+            <span class="field-error" id="message-error" aria-live="polite"></span>
+            <button class="button button-dark form-submit" type="submit">Prepare my message <span class="button-arrow" aria-hidden="true">↗</span></button>
+            <p class="form-note">This demo doesn’t send or store messages. To receive enquiries, connect an email service or backend. Submitting will open a draft in your email app.</p>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-top"><a class="wordmark footer-wordmark" href="#top">Ayushi <span>♡</span> Dhiman</a><p>Made slowly. Loved forever. <span>♡</span></p><a class="back-top" href="#top">Back to the top ↑</a></div>
+      <div class="footer-bottom"><span>© <span id="current-year"></span> Ayushi Dhiman. Made with love.</span><div class="footer-socials"><a href="https://instagram.com/your_instagram_id" target="_blank" rel="noreferrer">Instagram ↗</a><a href="mailto:your.email@gmail.com">Gmail ↗</a></div><span class="footer-location">A little studio somewhere sunny <span>✳</span></span></div>
+    </footer>
+
+    <dialog class="project-modal" id="project-modal" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" aria-label="Close project details">×</button>
+      <div class="modal-image-wrap"><img class="modal-image" id="modal-image" src="" alt="" /></div>
+      <div class="modal-copy"><p class="eyebrow" id="modal-category"></p><h2 id="modal-title"></h2><p id="modal-description"></p><a class="text-link modal-contact-link" href="#contact">Ask me about this piece <span aria-hidden="true">↗</span></a></div>
+    </dialog>
+
+  </body>
+</html>

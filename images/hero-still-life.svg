@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760">
+  <defs>
+    <linearGradient id="vase" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#dfae91"/>
+      <stop offset=".48" stop-color="#bd8068"/>
+      <stop offset="1" stop-color="#9d6657"/>
+    </linearGradient>
+    <linearGradient id="vaseLight" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#f2d0b1" stop-opacity=".8"/>
+      <stop offset=".55" stop-color="#f2d0b1" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#704b43" stop-opacity=".26"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#a8a47f"/>
+      <stop offset="1" stop-color="#65735f"/>
+    </linearGradient>
+    <radialGradient id="flower">
+      <stop stop-color="#f8e5c4"/>
+      <stop offset=".7" stop-color="#ddb596"/>
+      <stop offset="1" stop-color="#ba806d"/>
+    </radialGradient>
+    <filter id="soft-shadow" x="-35%" y="-25%" width="170%" height="170%">
+      <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#73594d" flood-opacity=".2"/>
+    </filter>
+    <pattern id="speckles" width="31" height="37" patternUnits="userSpaceOnUse">
+      <circle cx="7" cy="12" r="1.5" fill="#f3d9bf" opacity=".55"/>
+      <circle cx="24" cy="29" r="1" fill="#754e43" opacity=".25"/>
+    </pattern>
+  </defs>
+
+  <ellipse cx="382" cy="683" rx="190" ry="25" fill="#9b7969" opacity=".13"/>
+
+  <g fill="none" stroke="#72795e" stroke-linecap="round" stroke-width="8">
+    <path d="M383 425C374 333 319 249 250 151"/>
+    <path d="M382 422C398 320 447 226 520 132"/>
+    <path d="M388 421C418 334 488 289 570 247"/>
+    <path d="M374 426C353 318 354 216 370 109"/>
+    <path d="M386 422C341 365 289 333 219 310"/>
+  </g>
+  <g fill="none" stroke="#b19a70" stroke-linecap="round" stroke-width="4">
+    <path d="M250 151c-13-28-15-51-7-70"/>
+    <path d="M520 132c18-21 25-42 20-67"/>
+    <path d="M570 247c26-10 42-26 49-46"/>
+    <path d="M370 109c-5-26 0-47 15-65"/>
+    <path d="M219 310c-24-3-43-13-57-31"/>
+  </g>
+
+  <g fill="url(#leaf)" stroke="#69765f" stroke-width="3">
+    <path d="M302 259c-52-54-102-55-133-31 34 47 79 65 133 31Z"/>
+    <path d="M440 284c27-67 73-95 110-84-16 58-51 93-110 84Z"/>
+    <path d="M314 350c-46-45-90-46-118-25 29 40 70 56 118 25Z"/>
+    <path d="M463 359c40-47 84-56 116-39-22 46-61 68-116 39Z"/>
+    <path d="M354 204c-30-53-24-96 4-120 27 44 31 84-4 120Z"/>
+    <path d="M487 211c7-62 38-92 72-93 1 51-19 87-72 93Z"/>
+  </g>
+  <g fill="none" stroke="#d7d0ac" stroke-linecap="round" stroke-width="3" opacity=".75">
+    <path d="M302 259c-46-20-80-30-121-31"/>
+    <path d="M440 284c34-32 65-52 104-64"/>
+    <path d="M314 350c-36-16-67-23-102-25"/>
+    <path d="M463 359c30-28 62-42 98-43"/>
+  </g>
+
+  <g fill="url(#flower)" stroke="#f4ddc3" stroke-width="2">
+    <g transform="translate(243 91)">
+      <ellipse cy="-20" rx="12" ry="24"/><ellipse cy="-20" rx="12" ry="24" transform="rotate(60)"/>
+      <ellipse cy="-20" rx="12" ry="24" transform="rotate(120)"/><ellipse cy="-20" rx="12" ry="24" transform="rotate(180)"/>
+      <ellipse cy="-20" rx="12" ry="24" transform="rotate(240)"/><ellipse cy="-20" rx="12" ry="24" transform="rotate(300)"/>
+      <circle r="9" fill="#bd8959"/>
+    </g>
+    <g transform="translate(539 60) scale(.8)">
+      <ellipse cy="-20" rx="12" ry="24"/><ellipse cy="-20" rx="12" ry="24" transform="rotate(60)"/>
+      <ellipse cy="-20" rx="12" ry="24" transform="rotate(120)"/><ellipse cy="-20" rx="12" ry="24" transform="rotate(180)"/>
+      <ellipse cy="-20" rx="12" ry="24" transform="rotate(240)"/><ellipse cy="-20" rx="12" ry="24" transform="rotate(300)"/>
+      <circle r="9" fill="#bd8959"/>
+    </g>
+    <g transform="translate(619 194) scale(.65)">
+      <ellipse cy="-20" rx="12" ry="24"/><ellipse cy="-20" rx="12" ry="24" transform="rotate(60)"/>
+      <ellipse cy="-20" rx="12" ry="24" transform="rotate(120)"/><ellipse cy="-20" rx="12" ry="24" transform="rotate(180)"/>
+      <ellipse cy="-20" rx="12" ry="24" transform="rotate(240)"/><ellipse cy="-20" rx="12" ry="24" transform="rotate(300)"/>
+      <circle r="9" fill="#bd8959"/>
+    </g>
+    <g transform="translate(385 44) scale(.72)">
+      <ellipse cy="-20" rx="12" ry="24"/><ellipse cy="-20" rx="12" ry="24" transform="rotate(60)"/>
+      <ellipse cy="-20" rx="12" ry="24" transform="rotate(120)"/><ellipse cy="-20" rx="12" ry="24" transform="rotate(180)"/>
+      <ellipse cy="-20" rx="12" ry="24" transform="rotate(240)"/><ellipse cy="-20" rx="12" ry="24" transform="rotate(300)"/>
+      <circle r="9" fill="#bd8959"/>
+    </g>
+  </g>
+
+  <g filter="url(#soft-shadow)">
+    <path d="M320 421c4 30-7 54-26 84-35 57-46 118-24 151 20 29 83 42 122 42s102-13 122-42c22-33 11-94-24-151-19-30-30-54-26-84l-2-29H322l-2 29Z" fill="url(#vase)" stroke="#8e5e52" stroke-width="5"/>
+    <path d="M320 421c4 30-7 54-26 84-35 57-46 118-24 151 20 29 83 42 122 42s102-13 122-42c22-33 11-94-24-151-19-30-30-54-26-84l-2-29H322l-2 29Z" fill="url(#speckles)" opacity=".65"/>
+    <path d="M320 421c4 30-7 54-26 84-35 57-46 118-24 151 7 11 18 19 31 25-12-36-5-79 19-121 24-42 33-81 29-115l1-32h-28l-2 8Z" fill="url(#vaseLight)" opacity=".75"/>
+    <ellipse cx="380" cy="393" rx="61" ry="17" fill="#a96f5e" stroke="#8e5e52" stroke-width="5"/>
+    <ellipse cx="380" cy="391" rx="42" ry="9" fill="#725148"/>
+    <path d="M307 599c45 19 101 24 149 8" fill="none" stroke="#f0c4a4" stroke-linecap="round" stroke-width="8" opacity=".48"/>
+    <path d="M284 640c48 28 139 35 191 6" fill="none" stroke="#f1d0b1" stroke-linecap="round" stroke-width="5" opacity=".48"/>
+    <path d="M304 482c10 5 18 7 27 8" fill="none" stroke="#f5d6b8" stroke-linecap="round" stroke-width="5" opacity=".5"/>
+  </g>
+
+  <g fill="#c28c68" opacity=".8">
+    <circle cx="157" cy="215" r="5"/><circle cx="605" cy="354" r="4"/>
+    <circle cx="199" cy="408" r="3"/><circle cx="574" cy="429" r="5"/>
+  </g>
+</svg>
